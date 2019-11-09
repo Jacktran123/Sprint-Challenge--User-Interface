@@ -1,0 +1,15 @@
+If you were to describe semantic HTML to the next cohort of students, what would you say?
+ I would explain it to them technically, using the defenition of semantic HTML, that is semantic tags provided meaning for the contents. 
+
+Name two big differences between display: block; and display: inline;.
+  Display: block; will start the contents on the new line, and you can also control the width and height of the content. 
+  Display: inline; will display the contents on the same line of the previous content. 
+
+What are the 4 areas of the box model?
+  content, padding, border, margin
+
+While using flexbox, what axis does the following property work on: align-items: center?
+        cross-axis
+
+Explain why git is valuable to a team of developers.
+  Git allows the users to go back to the previous version of the code, so the users can alway undo what they did to the code.
