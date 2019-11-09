@@ -70,6 +70,23 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+.container nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin: 10px auto;
+    
+}
+.about:hover{
+    color: red;
+}
+.container nav a{
+    text-decoration: none;
+    color: black;
+}
+.jumbo{
+    margin: 40px auto;
+}
 
 .top-content {
     display: flex;
@@ -112,6 +129,37 @@ p {
     justify-content: center;
 }
 
+.boxes .box:first-child{
+    background: teal;
+}
+.boxes .box:nth-child(2){
+    background: gold;
+}
+.boxes .box:nth-child(3){
+    background: cadetblue;
+}
+.boxes .box:nth-child(4){
+    background: coral;
+}
+.boxes .box:nth-child(5){
+    background: crimson;
+}
+.boxes .box:nth-child(6){
+    background:forestgreen;
+}
+.boxes .box:nth-child(7){
+    background: darkorchid;
+}
+.boxes .box:nth-child(8){
+    background: hotpink;
+}
+.boxes .box:nth-child(9){
+    background: indigo;
+}.boxes .box:nth-child(10){
+    background: dodgerblue;
+}
+ 
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -126,10 +174,14 @@ p {
     padding-right: 0;
 }
 
-footer {
+
+
+
+
+/*footer {
     width: 100%;
     background: black;
-}
+}*/
 
 footer nav {
     width: 60%;
@@ -138,9 +190,11 @@ footer nav {
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+   
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    
 }
